@@ -26,6 +26,7 @@ const categoryStyle: Record<string, string> = {
   behavioral: "bg-purple-50 text-purple-700",
   technical: "bg-blue-50 text-blue-700",
   "system-design": "bg-pink-50 text-pink-700",
+  resume: "bg-teal-50 text-teal-700",
 };
 
 /* ================================================== */

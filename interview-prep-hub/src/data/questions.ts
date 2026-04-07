@@ -2,7 +2,7 @@ export interface Question {
   id: string;
   title: string;
   company: string;
-  category: "behavioral" | "technical" | "system-design";
+  category: "behavioral" | "technical" | "system-design" | "resume";
   difficulty: "easy" | "medium" | "hard";
   mastered: boolean;
   dateAdded: string;
@@ -98,5 +98,32 @@ export const questions: Question[] = [
     difficulty: "medium",
     mastered: true,
     dateAdded: "2026-04-06",
+  },
+  {
+    id: "11",
+    title: "Walk me through your resume.",
+    company: "Google",
+    category: "resume",
+    difficulty: "easy",
+    mastered: false,
+    dateAdded: "2026-04-06",
+  },
+  {
+    id: "12",
+    title: "Why did you leave your last role?",
+    company: "Amazon",
+    category: "resume",
+    difficulty: "medium",
+    mastered: false,
+    dateAdded: "2026-04-07",
+  },
+  {
+    id: "13",
+    title: "Tell me about this gap in your employment history.",
+    company: "Apple",
+    category: "resume",
+    difficulty: "hard",
+    mastered: false,
+    dateAdded: "2026-04-07",
   },
 ];
